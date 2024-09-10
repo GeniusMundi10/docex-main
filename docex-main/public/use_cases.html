@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DocEX - Transform your document processing with intelligent AI-powered automation.">
+    <meta name="keywords" content="AI, document processing, automation, intelligent document processing, DocEX">
+    <title>DocEX AI - Intelligent Document Processor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.jpeg" alt="DocEX AI Logo">
+            </a>
+        </div>
+        <button class="navbar-toggler">&#9776;</button> 
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="use_cases.html">Use Cases</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="contact.html" class="btn">Contact</a></li>
+            <li><a href="register.html" class="btn-register">Get Demo</a></li>
+            <li><a href="sign-in.html" id="signInBtn" class="btn">Sign In</a></li>
+            <li><a href="#" id="signOutBtn" class="btn-signout" style="display: none;">Sign Out</a></li>
+        </ul>
+    </div>
+
+    <header class="hero-section">
+        <nav>
+            <!-- Your existing navigation content -->
+        </nav>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Process 100% of Complex Documents</h1>
+                <p>Automate business processes end-to-end with guaranteed results using DocEX Intelligent Document Processing (IDP).</p>
+                <div class="hero-buttons">
+                    <a href="#" id="try-docex-btn" class="btn btn-primary">View Product</a>
+                    <a href="#" id="hero-book-demo" class="btn btn-secondary">Book Demo</a>
+                </div>
+            </div>
+            <div class="hero-video">
+                <video autoplay loop muted playsinline>
+                    <source src="images/header.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="use-cases">
+            <h1>Explore use cases by industry:</h1>
+            <div class="filter-container">
+                <select id="industry-filter">
+                    <option value="all">All industries</option>
+                    <!-- Add more industry options here -->
+                </select>
+                <input type="text" id="search-input" placeholder="Search use cases">
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <img src="images/bill-of-lading.png" alt="Bill of Lading">
+                    <h3>Bills of Lading (BOL)</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/certification-renewal.png" alt="Certification Renewal">
+                    <h3>Certification Renewals</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/communication-records.png" alt="Communication Records">
+                    <h3>Communication Records</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/contracts.png" alt="Contracts">
+                    <h3>Contracts</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/customer-onboarding.png" alt="Customer Onboarding">
+                    <h3>Customer Onboarding / KYC</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/customs-declarations.png" alt="Customs Declarations">
+                    <h3>Customs Declarations</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/dangerous-goods.png" alt="Dangerous Goods Declarations">
+                    <h3>Dangerous Goods Declarations</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/delivery-receipts.png" alt="Delivery Receipts">
+                    <h3>Delivery Receipts</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/educational-records.png" alt="Educational Records">
+                    <h3>Educational Records</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/equipment-data-plates.png" alt="Equipment Data Plates">
+                    <h3>Equipment Data Plates</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/financial-documents.png" alt="Financial Documents">
+                    <h3>Financial Documents</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/first-notices-of-loss.png" alt="First Notices of Loss">
+                    <h3>First Notices of Loss (FNOL)</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/statement-of-account.png" alt="Statement of Account">
+                    <h3>Statement of Account</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/freight-quotes.png" alt="Freight Quotes">
+                    <h3>Freight Quotes</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+                <div class="use-case-card">
+                    <img src="images/government-records.png" alt="Government Records">
+                    <h3>Government Records</h3>
+                    <a href="#" class="learn-more">Learn More →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PRODUCTS</h3>
+                <ul>
+                    <li><a href="#">Intelligent Document Processing (IDP)</a></li>
+                    <li><a href="#">Document Classification</a></li>
+                    <li><a href="#">Document Redaction</a></li>
+                    <li><a href="#">Human Review (HITL)</a></li>
+                    <li><a href="#">Attachment Scanning</a></li>
+                    <li><a href="#">LLM Intelligence</a></li>
+                    <li><a href="#">Table Recognition</a></li>
+                    <li><a href="#">Data Processing Crowd</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>SOLUTIONS</h3>
+                <ul>
+                    <li><a href="#">Financial Services</a></li>
+                    <li><a href="#">Insurance</a></li>
+                    <li><a href="#">Logistics</a></li>
+                    <li><a href="#">Shared Services</a></li>
+                    <li><a href="#">TIC Services</a></li>
+                    <li><a href="#">Use Cases</a></li>
+                    <li><a href="#">Document</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>PLATFORM</h3>
+                <ul>
+                    <li><a href="#">Accuracy Advantage</a></li>
+                    <li><a href="#">Architecture</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Sign In</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>RESOURCES</h3>
+                <ul>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">Release Notes</a></li>
+                    <li><a href="#">What is UDP?</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="#">Trust Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>COMPARISON</h3>
+                <ul>
+                    <li><a href="#">ABBYY</a></li>
+                    <li><a href="#">AntWorks</a></li>
+                    <li><a href="#">Automation Anywhere IQ</a></li>
+                    <li><a href="#">Bot</a></li>
+                    <li><a href="#">EdgeVerve</a></li>
+                    <li><a href="#">Hyperscience</a></li>
+                    <li><a href="#">IBM Datacap</a></li>
+                    <li><a href="#">Indico Data</a></li>
+                    <li><a href="#">Infrrd</a></li>
+                    <li><a href="#">Kofax</a></li>
+                    <li><a href="#">Parascript</a></li>
+                    <li><a href="#">Rossum</a></li>
+                    <li><a href="#">UiPath</a></li>
+                    <li><a href="#">WorkFusion</a></li>
+                </ul>
+            </div>
+            <div class="footer-section community-section">
+                <h3>COMMUNITY</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="#" class="social-icon"><img src="images/X.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="images/github.png" alt="GitHub"></a>
+                    <a href="#" class="social-icon"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="#" class="social-icon"><img src="images/fb.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="images/logo.jpeg" alt="DocEX Logo">
+            </div>
+            <p>&copy; 2024 DocEX. All rights reserved. | <a href="#">Terms</a> | <a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+</body>
+</html>

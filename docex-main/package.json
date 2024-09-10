@@ -1,0 +1,14 @@
+{
+  "name": "docex-website",
+  "version": "1.0.0",
+  "description": "DocEX AI Website",
+  "scripts": {
+    "build": "if not exist public mkdir public && xcopy /E /I *.html css js images components public\\ && copy package.json public\\",
+    "start": "npm run build && npx http-server public -c-1 -o /index.html"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0"
+  }
+}

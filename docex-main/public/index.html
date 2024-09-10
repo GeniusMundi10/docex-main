@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DocEX - Transform your document processing with intelligent AI-powered automation.">
+    <meta name="keywords" content="AI, document processing, automation, intelligent document processing, DocEX">
+    <title>DocEX AI - Intelligent Document Processor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.jpeg" alt="DocEX AI Logo">
+            </a>
+            <button class="navbar-toggler">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="use_cases.html">Use Cases</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" id="try-docex-btn" class="btn-primary">Get Demo</a></li>
+                <li><a href="sign-in.html" id="signInBtn" class="btn-secondary">Sign In</a></li>
+                <li><a href="#" id="signOutBtn" class="btn-secondary" style="display: none;">Sign Out</a></li>
+                <li id="userNameDisplay" class="hidden"></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Process 100% of Complex Documents</h1>
+                    <p>Automate business processes end-to-end with guaranteed results using DocEX Intelligent Document Processing (IDP).</p>
+                    <div class="hero-buttons">
+                        <a href="#" id="view-product-btn" class="btn btn-primary">View Product</a>
+                        <a href="#" id="book-demo-btn" class="btn btn-secondary">Book Demo</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-image.png" alt="DocEX AI in action">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="generative-ai" class="generative-ai-section">
+        <div class="container">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="images/generative_ai.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="text-container">
+                <h2>Generative AI for Documents</h2>
+                <p>Solve document automation challenges using the latest Large Language Models (LLMs). Customize AI models and applications using your data faster than ever before.</p>
+            </div>
+        </div>
+    </section>
+    <section id="deployment-options" class="deployment-section">
+        <div class="container">
+            <div class="text-container">
+                <h2>Industry-Leading Deployment Flexibility</h2>
+                <p>DocEX supports both on-premise and cloud deployment, giving you the flexibility to choose the environment that best suits your business needs. Whether you need the security and control of on-premise deployment or the scalability and accessibility of cloud deployment, DocEX has you covered.</p>
+            </div>
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="images/deployment_support.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+    <section id="ai-models" class="ai-models">
+        <div class="container">
+            <div class="ai-models-logos">
+                <video autoplay loop muted playsinline style="border-radius: 8px; width: 100%; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em;">
+                    <source src="images/ai_models.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a href="https://www.canva.com/design/DAGOWfARRTk/Z2ZUVseQ9PFfI6RI6qoJpg/watch?utm_content=DAGOWfARRTk&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener"></a> 
+            </div>
+            <div class="ai-models-text">
+                <h2>Latest AI Models</h2>
+                <p>Benefit from innovative AI models built by Meta, Amazon, Google, OpenAI, and more. Leverage GPT-4 and other cutting-edge AI to solve document automation challenges.</p>
+                <a href="#" class="btn-primary">View Platform Architecture &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="complexity" class="complexity-section">
+        <div class="container"> 
+            <div class="complexity-text">
+                <h2>Process Documents of Varying Complexity</h2>
+                <p>DocEX is designed to handle documents of varying complexity, from simple structured forms to highly complex and unstructured documents.</p>
+            </div>
+            <div class="complexity-video-container">
+                <video autoplay loop muted playsinline class="complexity-video">
+                    <source src="images/Complexity.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-slider">
+            <div class="feature">
+                <video autoplay loop muted playsinline >
+                    <source src="images/doc_classification.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="feature-content">
+                    <h3>Document Classification</h3>
+                    <p>Experience the future of document management with our state-of-the-art AI classification system. Witness real-time feature extraction, confidence scoring, and intelligent categorization that revolutionizes your workflow.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <video autoplay loop muted playsinline >
+                    <source src="images/high_accuracy.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="feature-content">
+                    <h3>High Accuracy</h3>
+                    <p>DocEX AI isn't just a tool—it's your competitive edge in the digital age. Say goodbye to manual document sorting and hello to enhanced productivity and precision.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <video autoplay loop muted playsinline >
+                    <source src="images/seamless_integration.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="feature-content">
+                    <h3>Seamless Integration</h3>
+                    <p>Experience unparalleled efficiency with DocEX's seamless integration capabilities. Our advanced AI seamlessly processes diverse document types—from PDFs and spreadsheets to images and XML files—extracting critical data with pinpoint accuracy. Watch as information flows effortlessly from raw documents into your local databases and cloud storage, all in real-time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="userProfileSection" class="hidden">
+        <div class="container mx-auto mt-10 text-center">
+            <button id="userProfileBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                View User Profile
+            </button>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <p><i class="fas fa-quote-left"></i> DocEX transformed our document processing, saving us countless hours each week! <i class="fas fa-quote-right"></i></p>
+                <h3>- Jane Doe, CEO of ExampleCorp</h3>
+            </div>
+            <div class="testimonial">
+                <p><i class="fas fa-quote-left"></i> The accuracy and speed are unmatched. I can't imagine going back to manual processing. <i class="fas fa-quote-right"></i></p>
+                <h3>- John Smith, Operations Manager at DataCo</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing-section">
+        <div class="pricing-container">
+            <div class="pricing-header">
+                <h2>DocEX, your end-to-end<br>document automation platform</h2>
+                <p class="subtitle">Grow the scope and value of your automation initiatives with our dedicated plans.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <p class="price">Starting at $5,000 per year</p>
+                    <p class="description">For scale ups who need to start to automate to keep growing</p>
+                    <a href="#" class="btn-quote" id="get-a-quote">Get A Quote</a>
+                    <p class="includes">Includes:</p>
+                    <ul>
+                        <li>Unlimited seats</li>
+                        <li>Document ingestion through email, API, or manual upload</li>
+                        <li>DocEX Aurora Document AI for automated and accurate extraction</li>
+                        <li>Master data matching to match extracted values with values in your databases</li>
+                        <li>Ergonomic validation screen for exception handling and human in the loop</li>
+                        <li>Last 12 months document archive & search</li>
+                        <li>API access</li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Business</h3>
+                    <p class="description">For businesses who want to automate their document workflows end to end</p>
+                    <a href="#" class="btn-quote" id="get-a-quote">Get A Quote</a>
+                    <p class="includes">Includes everything in Starter +</p>
+                    <ul>
+                        <li>Custom business logic to extract the data you need, and create custom workflows</li>
+                        <li>Duplicate detection & handling across channels</li>
+                        <li>Integrated intelligent mailbox to accelerate business partner communication</li>
+                        <li>Custom functions & webhooks to build on DocEX's capabilities</li>
+                        <li>Document workflow reporting to get insights into your document flows, automation, and team performance</li>
+                        <li>Possibility to integrate with your tech stack (SAP, Coupa, Workday, Oracle and more)</li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-card recommended">
+                    <div class="tag">Recommended</div>
+                    <h3>Enterprise</h3>
+                    <p class="description">For mature businesses with complex use cases, looking for the highest level of customization and security</p>
+                    <a href="#" class="btn-quote" id="get-a-quote">Get A Quote</a>
+                    <p class="includes">Includes everything in Business +</p>
+                    <ul>
+                        <li>Single Sign On option to secure access through your enterprise SSO</li>
+                        <li>Sandbox for a secure testing environment for future deployments</li>
+                        <li>Extended master data matching</li>
+                        <li>Preferred cloud location</li>
+                        <li>Possibility to add signature onboarding & success plans</li>
+                        <li>Custom branding</li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>Ultimate</h3>
+                    <p class="description">For global businesses with multiple use cases, looking to seamlessly process millions of transactions per year</p>
+                    <a href="#" class="btn-quote" id="get-a-quote">Get A Quote</a>
+                    <p class="includes">Includes everything in Enterprise +</p>
+                    <ul>
+                        <li>Multi-document transactions for transactions represented by multiple documents</li>
+                        <li>Custom domain for email ingestion</li>
+                        <li>Embeddable user interface</li>
+                        <li>Additional sandbox</li>
+                        <li>Last 3 years document archive & search</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="demo-section" class="demo-section">
+        <div class="demo-container">
+            <h2>Get a customized demo with your documents</h2>
+            <p>Book a free consultation with our experts.</p>
+            <a href="#" class="btn-book-demo" id="open-modal">Book Demo</a>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>How does DocEX AI work?</h2>
+        <div class="how-it-works-video">
+            <video autoplay loop muted playsinline style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <source src="images/how_it_works.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="how-it-works-cards">
+            <div class="step-card">
+                <h3>1. Upload Documents</h3>
+                <p>Simply upload your document of any type or format to our platform.</p>
+            </div>
+            <div class="step-card">
+                <h3>2. Process Documents</h3>
+                <p>Our Generative AI Large Language Model processes the documents instantly, handling any type, format, and template on the go.</p>
+            </div>
+            <div class="step-card">
+                <h3>3. Get Results</h3>
+                <p>Receive processed data ready for use as JSON or Excel files that can be easily integrated into your environment.</p>
+            </div>
+        </div>
+    </section>
+   
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> What is DocEX?</h3>
+                <div class="faq-answer">
+                    <p>DocEX is an AI-powered intelligent document processor designed to automate the extraction of information from various types of documents with high accuracy.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> How does DocEX work?</h3>
+                <div class="faq-answer">
+                     <p>DocEX uses advanced AI models to process and extract data from your documents. You simply upload your documents, and DocEX quickly delivers the extracted information in a structured format like JSON or Excel.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> What types of documents can DocEX process?</h3>
+                <div class="faq-answer">
+                     <p>DocEX can process a wide range of documents including invoices, contracts, receipts, forms, and more. It supports various formats like PDF, Word, and scanned images.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> Is my data secure with DocEX?</h3>
+                <div class="faq-answer">
+                    <p>Yes, security is a top priority for us. All documents are processed in a secure environment, and your data is protected with industry-standard encryption protocols.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> Can DocEX integrate with my existing systems?</h3>
+                <div class="faq-answer">
+                    <p>Absolutely! DocEX is designed to seamlessly integrate with your existing systems, making it easy to incorporate the extracted data into your workflows.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                 <h3 class="faq-question"><i class="faq-icon">+</i> How can I get started with DocEX?</h3>
+                 <div class="faq-answer">
+                     <p>You can get started by booking a demo through our website or by directly trying out our platform for free. Our team is here to help you with any questions you may have during the setup process.</p>
+                 </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> What are the pricing options for DocEX?</h3>
+                <div class="faq-answer">
+                    <p>We offer flexible pricing plans to suit different business needs. You can choose from our basic, standard, and premium plans. For more details, please visit our pricing page or contact our sales team.</p>
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> How accurate is the data extraction process?</h3>
+                <div class="faq-answer">
+                    <p>DocEX achieves high accuracy in data extraction due to its advanced AI models. While results can vary depending on the document quality, our models are continuously trained to improve performance and accuracy.</p>
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> Can DocEX handle multi-page documents?</h3>
+                <div class="faq-answer">
+                    <p>Yes, DocEX is capable of processing multi-page documents. It can extract and consolidate data across all pages into a single structured output, making it easy to handle complex documents.</p>
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> What support options are available?</h3>
+                <div class="faq-answer">
+                    <p>We provide a range of support options, including online documentation, a customer support portal, and direct contact with our support team via email or phone. We also offer dedicated support for enterprise customers.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h3 class="faq-question"><i class="faq-icon">+</i> How does DocEX handle both digital and scanned documents with high accuracy?</h3>
+                <div class="faq-answer">
+                    <p>DocEX leverages advanced Optical Character Recognition (OCR) models to process both digital and scanned documents with high precision. Whether you're dealing with clear digital text or complex scanned images, our OCR technology ensures accurate data extraction by effectively recognizing and interpreting text in various formats. This allows for reliable and efficient document processing across a wide range of document types.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+     <!-- Modal Structure -->
+    <div id="demoModal" class="modal-backdrop">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-left">
+                <img src="images/logo.jpeg" alt="Super.AI Logo" class="modal-logo">
+                <h2>Start processing 100% of complex documents.</h2>
+                <p>Submit your information to get started with DocEX Intelligent Document Processing (IDP).</p>
+            </div>
+            <div class="modal-right">
+                <form id="demoForm" class="contact-form">
+                    <input type="email" name="email" placeholder="Work Email" required>
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                    <input type="text" name="lastName" placeholder="Last Name" required>
+                    <input type="text" name="jobTitle" placeholder="Job Title" required>
+                    <input type="text" name="companyName" placeholder="Company Name" required>
+                    <select name="country" required>
+                        <option value="">Select Country...</option>
+                        <option value="United States">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Germany">Germany</option>
+                        <option value="France">France</option>
+                        <option value="Australia">Australia</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Russia">Russia</option>
+                        <option value="South Korea">South Korea</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="United Arab Emirates">United Arab Emirates</option>
+                        <option value="South Africa">South Africa</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Turkey">Turkey</option>
+                    </select>
+                    <input type="text" name="documentsProcessed" placeholder="Documents Processed/Month" required>
+                    <p class="privacy-text">
+                        By clicking "Submit," you acknowledge that your data will be processed in accordance with DocEX's privacy policy. You can unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please review our <a href="privacy.html" target="_blank">Privacy Policy</a>.
+                    </p>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>PRODUCTS</h3>
+                <ul>
+                    <li><a href="#">Intelligent Document Processing (IDP)</a></li>
+                    <li><a href="#">Document Classification</a></li>
+                    <li><a href="#">Document Redaction</a></li>
+                    <li><a href="#">Human Review (HITL)</a></li>
+                    <li><a href="#">Attachment Scanning</a></li>
+                    <li><a href="#">LLM Intelligence</a></li>
+                    <li><a href="#">Table Recognition</a></li>
+                    <li><a href="#">Data Processing Crowd</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>SOLUTIONS</h3>
+                <ul>
+                    <li><a href="#">Financial Services</a></li>
+                    <li><a href="#">Insurance</a></li>
+                    <li><a href="#">Logistics</a></li>
+                    <li><a href="#">Shared Services</a></li>
+                    <li><a href="#">TIC Services</a></li>
+                    <li><a href="#">Use Cases</a></li>
+                    <li><a href="#">Document</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>PLATFORM</h3>
+                <ul>
+                    <li><a href="#">Accuracy Advantage</a></li>
+                    <li><a href="#">Architecture</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Sign In</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>RESOURCES</h3>
+                <ul>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">Release Notes</a></li>
+                    <li><a href="#">What is UDP?</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="#">Trust Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>COMPARISON</h3>
+                <ul>
+                    <li><a href="#">ABBYY</a></li>
+                    <li><a href="#">AntWorks</a></li>
+                    <li><a href="#">Automation Anywhere IQ</a></li>
+                    <li><a href="#">Bot</a></li>
+                    <li><a href="#">EdgeVerve</a></li>
+                    <li><a href="#">Hyperscience</a></li>
+                    <li><a href="#">IBM Datacap</a></li>
+                    <li><a href="#">Indico Data</a></li>
+                    <li><a href="#">Infrrd</a></li>
+                    <li><a href="#">Kofax</a></li>
+                    <li><a href="#">Parascript</a></li>
+                    <li><a href="#">Rossum</a></li>
+                    <li><a href="#">UiPath</a></li>
+                    <li><a href="#">WorkFusion</a></li>
+                </ul>
+            </div>
+            <div class="footer-section community-section">
+                <h3>COMMUNITY</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="#" class="social-icon"><img src="images/X.png" alt="Twitter"></a>
+                    <a href="#" class="social-icon"><img src="images/github.png" alt="GitHub"></a>
+                    <a href="#" class="social-icon"><img src="images/youtube.png" alt="YouTube"></a>
+                    <a href="#" class="social-icon"><img src="images/fb.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="images/logo.jpeg" alt="DocEX Logo">
+            </div>
+            <p>&copy; 2024 DocEX. All rights reserved. | <a href="#">Terms</a> | <a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/user-profile.js"></script>
+    
+
+  
+</body>
+</html>

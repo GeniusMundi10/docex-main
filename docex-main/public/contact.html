@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DocEX - Transform your document processing with intelligent AI-powered automation.">
+    <meta name="keywords" content="AI, document processing, automation, intelligent document processing, DocEX">
+    <title>Contact Us - DocEX AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="images/logo.jpeg">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.jpeg" alt="DocEX AI Logo">
+            </a>
+        </div>
+        <button class="navbar-toggler">&#9776;</button> 
+        <ul class="nav-links">
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#how-it-works">How It Works</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+            <li><a href="index.html#pricing">Pricing</a></li>
+            <li><a href="use_cases.html">Use Cases</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            
+            <li><a href="contact.html" class="btn">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>How can we help you?</p>
+        <div class="tabs">
+            <button class="tablink active" onclick="openForm(event, 'Book')">
+                <h3>Book</h3>
+                <p>If you are interested in booking a personalized demo to learn how AI applies to your business, please select an appointment time below.</p>
+            </button>
+            <button class="tablink" onclick="openForm(event, 'Support')">
+                <h3>Support</h3>
+                <p>If you are a customer seeking support, please fill out the form below and someone will be in touch soon.</p>
+            </button>
+        </div>
+        
+        <!-- Book Form -->
+        <div id="Book" class="tabcontent active">
+            <form id="bookForm" class="contact-form">
+                <input type="email" name="Work Email" placeholder="Work email" required>
+                <input type="text" name="First name" placeholder="First name" required>
+                <input type="text" name="Last name" placeholder="Last name" required>
+                <input type="text" name="Job title" placeholder="Job title" required>
+                <input type="text" name="Company name" placeholder="Company name" required>
+                <select name="Country" required>
+                    <option value="">Select Country...</option>
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="Australia">Australia</option>
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Russia">Russia</option>
+                    <option value="South Korea">South Korea</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="United Arab Emirates">United Arab Emirates</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Turkey">Turkey</option>
+                </select>
+                <div class="form-group">
+                    <label for="documents-per-month">Documents Processed/Month</label>
+                    <input type="text" id="documents-per-month" name="Documents Processed/Month" placeholder="Documents Processed/Month" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Document Types*</label>
+                    <div class="document-types">
+                        <label><input type="checkbox" name="Document Types" value="Airway Bills"> Airway Bills</label>
+                        <label><input type="checkbox" name="Document Types" value="Bank Statements"> Bank Statements</label>
+                        <label><input type="checkbox" name="Document Types" value="Bills of Lading"> Bills of Lading</label>
+                        <label><input type="checkbox" name="Document Types" value="Business Cards"> Business Cards</label>
+                        <label><input type="checkbox" name="Document Types" value="Contracts"> Contracts</label>
+                        <label><input type="checkbox" name="Document Types" value="Customs Forms"> Customs Forms</label>
+                        <label><input type="checkbox" name="Document Types" value="Driver's Licenses"> Driver's Licenses</label>
+                        <label><input type="checkbox" name="Document Types" value="Expense Documents"> Expense Documents</label>
+                        <label><input type="checkbox" name="Document Types" value="GewAI (DE) Documents"> GewAI (DE) Documents</label>
+                        <label><input type="checkbox" name="Document Types" value="Identity Documents"> Identity Documents</label>
+                        <label><input type="checkbox" name="Document Types" value="Invoices"> Invoices</label>
+                        <label><input type="checkbox" name="Document Types" value="Mortgage Statements"> Mortgage Statements</label>
+                        <label><input type="checkbox" name="Document Types" value="Order Forms"> Order Forms</label>
+                        <label><input type="checkbox" name="Document Types" value="Pay Slips"> Pay Slips</label>
+                        <label><input type="checkbox" name="Document Types" value="Purchase Orders"> Purchase Orders</label>
+                        <label><input type="checkbox" name="Document Types" value="Receipts"> Receipts</label>
+                        <label><input type="checkbox" name="Document Types" value="Retirement/Investment Statements"> Retirement/Investment Statements</label>
+                        <label><input type="checkbox" name="Document Types" value="Shipping Labels"> Shipping Labels</label>
+                        <label><input type="checkbox" name="Document Types" value="Tax Documents"> Tax Documents</label>
+                        <label><input type="checkbox" name="Document Types" value="Utility Bills"> Utility Bills</label>
+                        <label><input type="checkbox" name="Document Types" value="Other"> Other</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="use-case">Please describe your use case*</label>
+                    <textarea id="use-case" name="Use Case" placeholder="Please describe your use case*" required></textarea>
+                </div>
+                <p class="privacy-text">
+                    By clicking "Submit," you acknowledge that your data will be processed in accordance with DocEX's privacy policy. You can unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please review our <a href="privacy.html" target="_blank">Privacy Policy</a>.
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    
+        <!-- Support Form -->
+        <div id="Support" class="tabcontent" style="display:none;">
+            <form id="supportForm" class="contact-form">
+                <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Last Name" placeholder="Last Name" required>
+                <input type="email" name="Work Email" placeholder="Work Email" required>
+                <input type="text" name="Company Name" placeholder="Company Name" required>
+                <select name="Support Type" required>
+                    <option value="">How can we help you?</option>
+                    <option value="Technical Support">Technical Support</option>
+                    <option value="Billing Inquiry">Billing Inquiry</option>
+                    <option value="General Question">General Question</option>
+                </select>
+                <input type="text" name="Subject" placeholder="Subject of request" required>
+                <textarea name="Support Reason" placeholder="Describe your reason for contacting support" required></textarea>
+                <p class="privacy-text">
+                    By clicking "Submit," you acknowledge that your data will be processed in accordance with DocEX's privacy policy. You can unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please review our <a href="privacy.html" target="_blank">Privacy Policy</a>.
+                </p>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
